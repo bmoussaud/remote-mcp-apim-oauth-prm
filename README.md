@@ -31,7 +31,6 @@ For a consistent development environment with all tools pre-installed, you can u
 The devcontainer includes:
 - Azure CLI with Bicep
 - Azure Developer CLI (azd)
-- .NET SDK 8.0
 - Python 3.11
 - All recommended VS Code extensions
 

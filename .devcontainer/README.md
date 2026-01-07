@@ -10,16 +10,13 @@ This devcontainer provides a complete development environment for the MCP Server
 - **Azure Developer CLI (azd)** - Streamlined Azure development experience
 
 ### Development Tools
-- **.NET SDK 8.0** - For building and running the C# API
 - **Python 3.11** - For scripting and tooling
-- **Node.js LTS** - JavaScript runtime
 - **Git** - Version control
 - **GitHub CLI** - GitHub command-line tool
 
 ## VS Code Extensions
 
 The devcontainer automatically installs these extensions:
-- C# Dev Kit
 - Bicep
 - Azure Developer CLI
 - Python & Pylance
@@ -41,12 +38,6 @@ The devcontainer automatically installs these extensions:
    ```bash
    # Deploy to Azure
    azd up
-   
-   # Build the API
-   dotnet build src/api
-   
-   # Run the API locally
-   dotnet run --project src/api
    ```
 
 ## Azure Authentication
