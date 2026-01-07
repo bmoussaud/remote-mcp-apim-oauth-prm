@@ -19,6 +19,24 @@ This sample implements the latest draft version of [MCP Authorization specificat
 - Azure subscription
 - VS Code (for testing)
 
+### Development Container (Optional)
+
+For a consistent development environment with all tools pre-installed, you can use the included devcontainer:
+
+1. Install [Docker](https://docs.docker.com/get-docker/) and [VS Code](https://code.visualstudio.com/)
+2. Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+3. Open this repository in VS Code
+4. Click "Reopen in Container" when prompted
+
+The devcontainer includes:
+- Azure CLI with Bicep
+- Azure Developer CLI (azd)
+- .NET SDK 8.0
+- Python 3.11
+- All recommended VS Code extensions
+
+See [.devcontainer/README.md](.devcontainer/README.md) for more details.
+
 ## Quick Start
 
 ### 1. Deploy to Azure
