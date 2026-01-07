@@ -4,17 +4,15 @@ set -e
 
 echo "🚀 Setting up development environment..."
 
-# Install Azure Developer CLI (azd)
-echo "📦 Installing Azure Developer CLI (azd)..."
-curl -fsSL https://aka.ms/install-azd.sh | bash
-
 # Verify installations
 echo ""
 echo "✅ Verifying installations..."
 echo "  - Azure CLI: $(az --version | head -n 1)"
 echo "  - Bicep CLI: $(az bicep version)"
 echo "  - Azure Developer CLI: $(azd version)"
+echo "  - Docker: $(docker --version)"
 echo "  - Python: $(python3 --version)"
+echo "  - uv: $(uv --version)"
 echo "  - Git: $(git --version)"
 
 # Install Python packages if requirements.txt exists

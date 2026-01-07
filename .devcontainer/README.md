@@ -11,6 +11,8 @@ This devcontainer provides a complete development environment for the MCP Server
 
 ### Development Tools
 - **Python 3.11** - For scripting and tooling
+- **uv** - Modern Python package and project manager
+- **Docker** - Container runtime (Docker-in-Docker)
 - **Git** - Version control
 - **GitHub CLI** - GitHub command-line tool
 
@@ -58,7 +60,8 @@ azd auth login
 - **Quick Setup** - From zero to productive in minutes
 - **Azure-Ready** - Pre-configured with all Azure development tools
 - **Bicep Support** - Full infrastructure as code capabilities
-- **Python Support** - For automation scripts and tooling
+- **Python Support** - Modern Python tooling with uv package manager
+- **Docker-in-Docker** - Build and run containers within the devcontainer
 
 ## Customization
 

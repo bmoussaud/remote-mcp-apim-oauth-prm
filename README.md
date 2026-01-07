@@ -31,7 +31,8 @@ For a consistent development environment with all tools pre-installed, you can u
 The devcontainer includes:
 - Azure CLI with Bicep
 - Azure Developer CLI (azd)
-- Python 3.11
+- Python 3.11 with uv package manager
+- Docker-in-Docker
 - All recommended VS Code extensions
 
 See [.devcontainer/README.md](.devcontainer/README.md) for more details.
